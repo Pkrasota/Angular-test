@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import {DataComponent} from "./data/data.component";
 
-const routes: Routes = [];
+// mapping address and component
+const routes: Routes = [
+  {path: 'data', component: DataComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

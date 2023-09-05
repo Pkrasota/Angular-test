@@ -21,7 +21,3 @@ search$.pipe(
 ).subscribe(value => {
   console.log(value)
 })
-
-
-
-
